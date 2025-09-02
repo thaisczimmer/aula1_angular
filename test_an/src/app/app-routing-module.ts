@@ -13,6 +13,11 @@ const routes: Routes = [
 {
   path: 'estrutura',
   loadChildren: () => import('./estrutura/estrutura-module').then(m => m.EstruturaModule)
+},
+
+{
+  path: 'shared-module',
+  loadChildren: () => import('./shared-module/shared-module-module').then(m => m.SharedModuleModule)
 }
 
 ];

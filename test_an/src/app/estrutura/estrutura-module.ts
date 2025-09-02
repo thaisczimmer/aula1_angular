@@ -5,8 +5,10 @@ import { EstruturaRoutingModule } from './estrutura-routing-module';
 import { Diretiva } from './diretiva/diretiva';
 
 
+
 @NgModule({
   declarations: [
+
     Diretiva
   ],
   imports: [
