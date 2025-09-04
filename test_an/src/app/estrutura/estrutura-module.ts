@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import { EstruturaRoutingModule } from './estrutura-routing-module';
 import { Diretiva } from './diretiva/diretiva';
+import { MatToolbarModule } from '@angular/material/toolbar';
+
 
 
 
@@ -13,7 +15,8 @@ import { Diretiva } from './diretiva/diretiva';
   ],
   imports: [
     CommonModule,
-    EstruturaRoutingModule
+    EstruturaRoutingModule,
+      MatToolbarModule
   ]
 })
 export class EstruturaModule { }

@@ -18,7 +18,9 @@ const routes: Routes = [
 {
   path: 'shared-module',
   loadChildren: () => import('./shared-module/shared-module-module').then(m => m.SharedModuleModule)
-}
+},
+
+
 
 ];
 
